@@ -2,21 +2,77 @@ body {
     background-image:linear-gradient(#615dad, #ffc8da);
     background-repeat: no-repeat;
     background-size:cover;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    
 }
-.container {
+
+
+.piskvorky {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    flex-basis: 700px;
+    width: calc(100%/3);
+    overflow: auto;
 }
 
-.buttons {
-    display: flex;
-    flex-direction: column;
+.piskvorky__popis h1{
+    font-family: "lobster", sans-serif;
+    font-size: 3rem;
 }
 
-.uvodni img {
+.piskvorky img {
     width: 100%;
-    overflow: auto;    
 }
+
+.piskvorky__popis {
+    background-color: #283e50;
+    color: white;
+}
+ 
+.piskvorky__tlacitka {
+    display: flex;
+    flex-direction: column;
+}
+
+.tlacitka__pravidla,
+.tlacitka__hra {
+    padding: 1rem;
+}
+
+
+/*
+.piskvorky__foto {
+    width: 100%;
+    overflow: auto;
+}
+
+.piskvorky__popis {
+    
+    margin: 0;
+    text-align: center;
+}
+
+
+}
+
+.pravidla {
+    background-color: #1fcca4;
+}
+
+.hra {
+    background-color: #0197f6;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+    bord
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+} */
