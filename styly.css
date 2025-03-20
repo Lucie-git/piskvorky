@@ -19,13 +19,22 @@ body {
     overflow: auto;
 }
 
+.piskvorky__uvod {
+    /* display: block;
+    margin: 0; */
+    line-height: 0;
+}
+
 .piskvorky__popis h1{
     font-family: "lobster", sans-serif;
     font-size: 3rem;
+    
 }
 
 .piskvorky img {
     width: 100%;
+    border-radius: 3% 3% 0 0;
+    margin: 0;
 }
 
 .piskvorky__popis {
@@ -43,36 +52,39 @@ body {
     padding: 1rem;
 }
 
-
-/*
-.piskvorky__foto {
-    width: 100%;
-    overflow: auto;
-}
-
-.piskvorky__popis {
-    
-    margin: 0;
-    text-align: center;
-}
-
-
-}
-
-.pravidla {
+.tlacitka__pravidla {
     background-color: #1fcca4;
+    border-bottom: solid #283e50;
 }
 
-.hra {
+.tlacitka__hra {
     background-color: #0197f6;
 }
 
 a:link {
     color:white;
     text-decoration: none;
-    bord
+    
 }
 a:visited {
     color: white;
     text-decoration: none;
+}
+
+.tlacitka__pravidla:hover {
+    background-color: #1cbb96;
+}
+
+.tlacitka__hra:hover {
+    background-color: #0090e9;
+}
+
+/* .tlacitka__pravidla,
+a:hover {
+    background-color: #2d554b;
+}
+
+.tlacitka__hra,
+a:hover {
+    background-color: #304b5c;
 } */
