@@ -11,22 +11,25 @@
   </head>
   <body>
     <div class="hra">
-      <header>
+      <header class="hra__hlavicka">
         <h1>Piškvorky</h1>
       </header>
-
-      <nav class="hra__nav">
-        <div class="hra__hráč">HRAJE:</div>
-        <div class="hra__domu">
-          <a href="index.html"></a>
-          <img src="podklady/home.svg" alt="domů" />
-        </div>
-        <div class="hra__opakovat">
-          <a href="hra.html"></a>
-          <img src="podklady/restart.svg" alt="restart" />
-        </div>
+      <nav class="nav">
+        <section class="nav__hraje">
+          <div class="hraje__hrac">HRAJE:</div>
+          <img src="podklady/circle.svg" alt="kroužek" />
+        </section>
+        <section class="nav__tlacitka">
+          <button class="tlacitka__domu">
+            <a href="index.html"></a>
+            <img src="podklady/home.svg" alt="domů" />
+          </button>
+          <button class="tlacitka__opakovat">
+            <a href="hra.html"></a>
+            <img src="podklady/restart.svg" alt="restart" />
+          </button>
+        </section>
       </nav>
-
       <div class="hra__grid">
         <button class="grid__item"></button>
         <button class="grid__item"></button>
