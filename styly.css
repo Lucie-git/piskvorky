@@ -1,16 +1,22 @@
 body {
-    background-image:linear-gradient(#615dad, #ffc8da);
+    box-sizing: border-box;
+    background-image: linear-gradient(#615dad, #ffc8da);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-family: sans-serif;
-    
+
 }
 
+h1 {
+    font-family: "lobster", sans-serif;
+    font-size: 3rem;
+    color: white;
+}
 
 .piskvorky {
     display: flex;
@@ -24,11 +30,6 @@ body {
     line-height: 0;
 }
 
-.piskvorky__popis h1{
-    font-family: "lobster", sans-serif;
-    font-size: 3rem;    
-}
-
 .piskvorky img {
     width: 100%;
     border-radius: 3% 3% 0 0;
@@ -37,9 +38,8 @@ body {
 
 .piskvorky__popis {
     background-color: #283e50;
-    color: white;
 }
- 
+
 .piskvorky__tlacitka {
     display: flex;
     flex-direction: column;
@@ -60,10 +60,11 @@ body {
 }
 
 a:link {
-    color:white;
+    color: white;
     text-decoration: none;
-    
+
 }
+
 a:visited {
     color: white;
     text-decoration: none;
@@ -76,6 +77,36 @@ a:visited {
 .tlacitka__hra:hover {
     background-color: #0090e9;
 }
+
+/*---------------------------------------SEKCE HRA.HTML-------------------------------------------------------------*/
+
+.hra {
+    max-width: 80vmin;
+    overflow: auto;
+}
+
+.hra__nav {
+    display: flex;
+}
+
+.hra__domu,
+.hra__opakovat {
+    margin-left: auto;
+}
+
+.hra__grid {
+    display: grid;
+    grid-template-columns: repeat(10, 2rem);
+    grid-template-rows: repeat(10, 2rem);
+    width: 100%;
+    height: 100%;
+    gap: 1px;
+}
+
+.grid__item {
+    border: 1px solid black;
+}
+
 
 /* .tlacitka__pravidla,
 a:hover {
