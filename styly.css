@@ -162,8 +162,6 @@ a:visited {
     padding: 0%;
     border: none;
     outline: 1px solid black;
-
-
 }
 
 .grid__item:focus,
@@ -175,6 +173,7 @@ a:visited {
 .tlacitka__domu:hover {
     background-color: #1cbb96
 }
+
 
 .tlacitka__opakovat:focus,
 .tlacitka__opakovat:hover {
