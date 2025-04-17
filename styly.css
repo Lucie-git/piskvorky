@@ -183,12 +183,16 @@ a {}
     background-color: #0090e9;
 }
 
-/* .tlacitka__pravidla,
-a:hover {
-    background-color: #2d554b;
+.board__field--circle {
+    background-image: url(./podklady/circle-black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
 }
 
-.tlacitka__hra,
-a:hover {
-    background-color: #304b5c;
-} */
+.board__field--cross {
+    background-image: url(./podklady/cross-black.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
